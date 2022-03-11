@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Heading and paragraph line -->
+    <h1>List of books to read</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, obcaecati aliquam. Perspiciatis id alias optio suscipit adipisci praesentium deleniti laborum, qui vitae illum aliquid velit et. At eum placeat dolore.</p>
+    
+    <hr>
+    <!-- Example of absulate link -->
+    <a href="https://codewithharry.com">Click herry websiteshere to </a><br><br>
+    <!-- Example of relative link -->
+    <a href="/about.html">click here </a><br><br>
+    <a href="/just.html">click here to go just </a>
+
+    <hr>
+    <!-- Image tag  -->
+    <img src="https://images.unsplash.com/photo-1632243985694-aebda88eb37d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=532&q=80" alt="Humen Image" width="120px">
+    <img src="" alt=""><br><br>
+
+    <hr>
+    <!-- bold italic and underling tag -->
+    <b>This is bokf tag</b><br><br>
+    <i>This is italic</i><br><br>
+    <u>This is underline tag</u><br><br>
+    <!-- Big tag  -->
+    <big>this is a big tag to write in html</big>
+
+    <!-- Subcript and Superscript -->
+    <p>CO <sub>2</sub></p>
+    <p>a <sub>2</sub> + b + cx</p>
+    <p> 2a <sub>2</sub>+ 3b - c</p>
+
+    <!-- Pre tag -->
+    <pre>#include <iostream>  
+        using namespace std;  
+        int main()  
+        {  
+        int a[10][10],b[10][10],mul[10][10],r,c,i,j,k;    
+        cout<<"enter the number of row=";    
+        cin>>r;    
+        cout<<"enter the number of column=";    
+        cin>>c;    
+        cout<<"enter the first matrix element=\n";    
+        for(i=0;i<r;i++)    
+        {    
+        for(j=0;j<c;j++)    
+        {    
+        cin>>a[i][j];  
+        }    
+        }    
+        cout<<"enter the second matrix element=\n";    
+        for(i=0;i<r;i++)    
+        {    
+        for(j=0;j<c;j++)    
+        {    
+        cin>>b[i][j];    
+        }    
+        }    
+        cout<<"multiply of the matrix=\n";    
+        for(i=0;i<r;i++)    
+        {    
+        for(j=0;j<c;j++)    
+        {    
+        mul[i][j]=0;    
+        for(k=0;k<c;k++)    
+        {    
+        mul[i][j]+=a[i][k]*b[k][j];    
+        }    
+        }    
+        }    
+        //for printing result    
+        for(i=0;i<r;i++)    
+        {    
+        for(j=0;j<c;j++)    
+        {    
+        cout<<mul[i][j]<<" ";    
+        }    
+        cout<<"\n";    
+        }    
+        return 0;  
+        }    </pre>
+</body>
+</html>
